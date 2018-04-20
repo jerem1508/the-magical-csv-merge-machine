@@ -1,0 +1,31 @@
+{
+          "new_project": {
+                        "description": "Référentiel des codes postaux, communes et autres données géographiques",
+                        "display_name": "CP_VILLE",
+                        "public": true
+                      },
+        
+            "info_file_path": "/home/jerem/w/Magical/the-magical-csv-merge-machine/merge_machine/scripts/conf/cp_ville.json",
+
+            "file_path": "/home/jerem/Téléchargements/Magical-merge-machine/Fichiers_tests/CP_VILLE.csv",
+            
+            "columns_to_index": {
+                "CODE_POSTAL": ["integers"],
+                "VILLE": ["standard", "french", "n_grams", "city"], 
+                "COM_CODE": ["integers"], 
+                "COM_NOM_MAJ": ["standard", "french", "n_grams", "city"],
+                "COM_NOM": ["standard", "french", "n_grams", "city"],
+                "UU_ID": ["standard", "n_grams", "integers"],
+                "UUCR_ID": ["standard", "n_grams", "integers"],
+                "UUCR_NOM": ["standard", "french", "n_grams", "city"],
+                "DEP_CODE": ["standard", "integers"],
+                "DEP_ID": ["standard", "integers"],
+                "DEP_NOM": ["standard", "french", "n_grams"],
+                "ACA_CODE": ["standard", "integers"],
+                "ACA_ID": ["standard", "integers"],
+                "ACA_NOM": ["standard", "french", "n_grams", "city"],
+                "REG_CODE": ["integers"],
+                "REG_ID": ["integers", "standard"],
+                "REG_NOM": ["standard", "french", "n_grams"]
+            }
+}
